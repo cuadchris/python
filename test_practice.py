@@ -6,6 +6,7 @@ class TestSum(unittest.TestCase):
         self.assertEqual(sum([5,5,5]), 15)
         self.assertEqual(sum([5,5,6]), 16)
         self.assertEqual(sum([10,10,10]), 30)
+        self.assertEqual(sum([20,10,10]), 40)
 
 if __name__ == '__main__':
     unittest.main()
